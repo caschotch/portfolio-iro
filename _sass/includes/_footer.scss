@@ -5,4 +5,28 @@
   width: 100%;
   color: lighten($text-color, 30%);
   font-size: 0.9em;
+
+  ul {
+    margin: 100;
+    padding: 0;
+    list-style: none;
+    line-height: 1.5;
+    text-align: center;
+  }
+  li {
+    display: inline;
+    margin-right: 0.4em;
+    i {
+      color: $header-link-color;
+      font-size: 1.5rem;
+    }
+  }
+  @media (max-width: 1100px) {
+    ul {
+      display: inline-block;
+      padding-top: $padding-small;
+      width: 100%;
+    }
+  }
+
 }
