@@ -40,7 +40,8 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: # Tracking ID, e.g. "UA-000000-01" -- This is where I would put in the Tracking ID from google analytics however
+                    # at this time will not proceed, submission to mentor has reasoning
   disqus_shortname:
   katex: true # Enable if using math markup
 
