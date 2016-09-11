@@ -1,0 +1,19 @@
+form {
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: block;
+  input,
+  textarea {
+    margin: 5px;
+    &:focus{
+      outline-color: $header-link-color;
+    }
+  }
+  input,
+  textarea {
+    width: 70%;
+  }
+  textarea {
+    height: 150px;
+  }
+}
